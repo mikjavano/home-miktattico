@@ -67,6 +67,19 @@
         
         <!-- Bottone Contattami a destra -->
        
+  <button id="btn_loto_calendario_privacy" 
+            style="
+            background-color: #e67e22;
+             color: white; 
+             border: none;
+              padding: 10px 15px;
+               border-radius: 6px;
+                cursor: pointer;
+                 font-weight: bold;"
+                 onclick="gestioneLotoCalendarioPrivacy()"
+                 >
+				Loto Calendario Privacy
+            </button>
 			<button id="btn_download_loto_calendario" 
             style="
             background-color: #e67e22;
@@ -98,12 +111,54 @@
         </div>
         
     </header>
+    
+    <!-- Finestra Modale della Privacy -->
+<dialog id="privacyModal" style="padding: 25px; border-radius: 10px; border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-width: 600px; width: 90%;">
+    <h3 style="margin-top: 0; color: #333;">Informativa sulla Privacy</h3>
+    <p style="font-size: 0.9em; color: #666;"><strong>Ultimo aggiornamento:</strong> 5 ottobre 2026</p>
+    
+    <p style="font-size: 0.95em; line-height: 1.5;">
+        La presente informativa descrive le modalità di gestione dell'applicazione LotoCalendario, in merito alla privacy e ai dati degli utenti.
+    </p>
+
+    <h4 style="margin-bottom: 5px; color: #444;">1. Raccolta dei dati personali:</h4>
+    <p style="font-size: 0.9em; line-height: 1.4; margin-top: 0;">
+        L'applicazione non raccoglie, non memorizza, non registra, non trasmette alcun dato personale dell'utente verso server esterni, cloud di terze parti o soggetti esterni.
+    </p>
+
+    <h4 style="margin-bottom: 5px; color: #444;">2. Gestione dei dati locali (Memoria Interna):</h4>
+    <p style="font-size: 0.9em; line-height: 1.4; margin-top: 0;">
+        L'applicazione memorizza le informazioni riguardanti gli incarichi, appuntamenti o altro, per mano dell'utente stesso in area di memoria interna, del dispositivo, nella directory interna dove e' stata installata la applicazione stessa, e all'esterno di suddetta directory sempre e comunque nella memoria del dispositivo, o in unita Flash drive usb o altro, collegate al dispositivo, con il suo File Manager, per mano del utente e solo per suo volere o desiderio di importare, i contenuti da lui salvati all'esterno.
+    </p>
+    <h4 style="margin-bottom: 5px; color: #444;">3. Sicurezza:</h4>
+    <p style="font-size: 0.9em; line-height: 1.4; margin-top: 0;">
+       Poiché gli incarichi creati dall'utente, sono salvati internamente nella directory di installazione della applicazione, nella directory di default preposta, la sicurezza di ciò che viene inserito dall'utente stesso, e' di livello medio alto perché protetto dal sistema operativo.
+    </p>
+
+    <div style="text-align: right; margin-top: 20px;">
+        <button onclick="chiudiPrivacy()" style="padding: 8px 16px; background-color: #333; color: white; border: none; border-radius: 5px; cursor: pointer;">Chiudi</button>
+    </div>
+</dialog>
+    
+    
     <script>
 		function gestioneGuidaloto(){
 			alert('Bottone cliccato con successo! Guida');
 		}
 		function gestioneProgetti(){
 			alert('Bottone cliccato con successo! Progetti');
+		}
+		
+		function gestioneLotoCalendarioPrivacy(){
+			apriPrivacy();
+		}
+		function apriPrivacy(){
+			const modal = document.getElementById('privacyModal');
+			modal.showModal();
+		}
+		function chiudiPrivacy(){
+			const modal = document.getElementById('privacyModal');
+			modal.close();
 		}
 		function gestioneDownload(){
 			
