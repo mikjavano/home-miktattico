@@ -3,79 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loto Calendario - Sito Ufficiale</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f9;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-        }
-        .container {
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 600px;
-            width: 90%;
-        }
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-        p {
-            color: #666;
-            font-size: 16px;
-            line-height: 1.5;
-            margin-bottom: 30px;
-        }
-        .btn-container {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        .btn {
-            background-color: #238636;
-            color: white;
-            padding: 12px 24px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 15px;
-            transition: background 0.2s;
-        }
-        .btn:hover {
-            background-color: #2ea043;
-        }
-        .btn-secondary {
-            background-color: #6e7781;
-        }
-        .btn-secondary:hover {
-            background-color: #57606a;
-        }
-    </style>
+    <head>
+	<title>Loto Calendario</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.38" />
 </head>
-<body>
 
-    <div class="container">
-        <h1>Loto Calendario</h1>
-        <p>Benvenuto nella pagina ufficiale della mia applicazione. Qui puoi trovare tutte le informazioni e scaricare l'APK direttamente sul tuo dispositivo in modo semplice e sicuro.</p>
+<body>
+    <!-- Inizio della barra di navigazione -->
+    <header style="
+    background-color: #2c3e50;
+     color: white;
+      padding: 15px 20px;
+       display: flex;
+        justify-content: space-between;
+         align-items: center;
+         border-radius: 8px;
+         ">
         
-        <div class="btn-container">
-            <!-- Sostituisci il cancelletto # con il link diretto al download dell'APK quando lo caricherai -->
-            <a href="#" class="btn">Scarica APK</a>
-            <!-- Sostituisci con la tua email -->
-            <a href="mailto:miktattico.java@gmail.com" class="btn btn-secondary">Contattami</a>
+        <!-- Titolo a sinistra -->
+        <div style="
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        ">
+       
+      
+			<button id="btn_guida_loto_calendario" 
+            style="
+            background-color: #e67e22;
+             color: white; 
+             border: none;
+              padding: 10px 15px;
+               border-radius: 6px;
+                cursor: pointer;
+                 font-weight: bold;"
+                 onclick="gestioneGuidaloto()"
+                 >
+				Guida Loto Calendario
+            </button>
+            <button id="btn_progetti_in_corso" 
+            style="
+            background-color: #e67e22;
+             color: white; 
+             border: none;
+              padding: 10px 15px;
+               border-radius: 6px;
+                cursor: pointer;
+                 font-weight: bold;"
+                  onclick="gestioneProgetti()"
+                 >
+				Progetti in corso
+            </button>     
+            
+        </div>     
+                
+        <div style="
+        display: flex-end;
+        gap:10px;
+         ">
+          
+       
+        
+        <!-- Bottone Contattami a destra -->
+       
+			<button id="btn_download_loto_calendario" 
+            style="
+            background-color: #e67e22;
+             color: white; 
+             border: none;
+              padding: 10px 15px;
+               border-radius: 6px;
+                cursor: pointer;
+                 font-weight: bold;"
+                 onclick="gestioneDownload()"
+                 >
+				Download Loto Calendario
+            </button>
+            <button id="btn_contattami" 
+            style="
+            background-color: #e67e22;
+             color: white; 
+             border: none;
+              padding: 10px 15px;
+               border-radius: 6px;
+                cursor: pointer;
+                 font-weight: bold;"                 
+                 onclick="gestioneContattami()"
+                 >
+				Contattami
+            </button>
+            
+            
         </div>
-    </div>
+        
+    </header>
+    <script>
+		function gestioneGuidaloto(){
+			alert('Bottone cliccato con successo! Guida');
+		}
+		function gestioneProgetti(){
+			alert('Bottone cliccato con successo! Progetti');
+		}
+		function gestioneDownload(){
+			
+			var conferma = confirm("Sei sicuro di voler scaricare Loto Calendario?");
+			if(conferma){
+				window.open('https://github.com/mikjavano/home-miktattico/raw/refs/heads/main/app-release.apk', '_blank');
+			}
+			
+			
+		}
+		function gestioneContattami(){
+			alert('Bottone cliccato con successo! Contattami');
+		}
+    
+    </script>
 
 </body>
 </html>
