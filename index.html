@@ -9,12 +9,22 @@
 	<meta name="generator" content="Geany 1.38" />
 </head>
 
-<body>
+<body style="background-image: url('/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/1791381243797.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;"
+>
+	
+	
     <!-- Inizio della barra di navigazione -->
-    <header style="
-    background-color: #2c3e50;
+    
+    <header id= "toolbar-fissa" style="
+   
+    background-color: rgba(44, 62, 80, 0.35);
      color: white;
       padding: 15px 20px;
+      width: calc(100% - 55px);
        display: flex;
         justify-content: space-between;
          align-items: center;
@@ -31,7 +41,7 @@
       
 			<button id="btn_guida_loto_calendario" 
             style="
-            background-color: #e67e22;
+            background-color: rgba(41, 128, 185, 0.65);
              color: white; 
              border: none;
               padding: 10px 15px;
@@ -44,7 +54,7 @@
             </button>
             <button id="btn_progetti_in_corso" 
             style="
-            background-color: #e67e22;
+            background-color: rgba(41, 128, 185, 0.65);
              color: white; 
              border: none;
               padding: 10px 15px;
@@ -66,10 +76,9 @@
        
         
         <!-- Bottone Contattami a destra -->
-       
-  <button id="btn_loto_calendario_privacy" 
+       <button id="btn_loto_calendario_privacy" 
             style="
-            background-color: #e67e22;
+            background-color: rgba(41, 128, 185, 0.65);
              color: white; 
              border: none;
               padding: 10px 15px;
@@ -82,7 +91,7 @@
             </button>
 			<button id="btn_download_loto_calendario" 
             style="
-            background-color: #e67e22;
+            background-color: rgba(41, 128, 185, 0.65);
              color: white; 
              border: none;
               padding: 10px 15px;
@@ -95,7 +104,7 @@
             </button>
             <button id="btn_contattami" 
             style="
-            background-color: #e67e22;
+            background-color: rgba(41, 128, 185, 0.65);
              color: white; 
              border: none;
               padding: 10px 15px;
@@ -111,6 +120,58 @@
         </div>
         
     </header>
+    
+    <div class="guida-container"
+		  style="
+			padding-left: 40%;
+			padding-top: 150px;
+        "
+    >
+    
+    <!-- Blocco 1 -->
+    <div class="guida-step">
+        <div class="testo-spiegazione"
+        >
+            <h2>(QUESTA GUIDA E'IN FASE DI SVILUPPO)</h2>
+            <h2>Guida all'uso del Calendario Loto</h2>
+            <p>Fondalmentalmente questo e' un modo per avere creazione,</p>
+            <p>apertura e interfaccia di verifica presenza di incarichi</p>
+            <p>nel mese selezionato ragruppati tutti insieme per praticita</p>
+            <p>e per una miglior facilita d'uso.</p>
+        </div>
+        
+        <div 
+        
+        class="immagine-step"
+
+        >
+            <img 
+            src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_1.jpg" 
+            width="300"
+            alt="Schermata 1 LotoCalendario"
+            >
+        </div>
+    </div>
+    
+
+    <!-- Blocco 2 (puoi duplicarlo per ogni schermata) -->
+    <div class="guida-step"
+
+		>
+        <div class="testo-spiegazione">
+            <h2>Titolo della schermata 2</h2>
+            <p>Qui metti la descrizione del secondo passaggio o della seconda funzione...</p>
+        </div>
+        <div class="immagine-step">
+            <img 
+            src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_2.jpg" 
+            width="300"
+            alt="Schermata 2 LotoCalendario"
+            >
+        </div>
+    </div>
+
+</div>
     
     <!-- Finestra Modale della Privacy -->
 <dialog id="privacyModal" style="padding: 25px; border-radius: 10px; border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-width: 600px; width: 90%;">
@@ -174,6 +235,8 @@
 		}
     
     </script>
-
+    
 </body>
+
 </html>
+
