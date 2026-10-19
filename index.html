@@ -2004,7 +2004,7 @@ background-attachment: fixed;"
     </p>
     
     <!-- ******************************************************+++++++******[ DIALOG VARI: ]************************************************************ -->
-     <!-- **************************************************[ DIALOG PER SELEZIONARE UNA GUIDA SPECIFICA ]************************************************************ -->
+          <!-- **************************************************[ DIALOG PER SELEZIONARE UNA GUIDA SPECIFICA ]************************************************************ -->
 <div id="dialog-guida" class="modal-overlay" style="
 	display: none; 
 	position: fixed; 
@@ -2090,7 +2090,9 @@ background-attachment: fixed;"
 					display: block;" 
 					onclick="chiudiDialogGuida();gestioneGuidaloto_3()"
 					>
-					Capitolo 3: Gestione Incarichi e Apertura Rapida.
+					Capitolo 3: Gestione Creazione Incarichi<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					e Apertura Rapida.
 				</a>
 		</li>
 		<li style="
@@ -2116,7 +2118,7 @@ background-attachment: fixed;"
 					display: block;" 
 					onclick="chiudiDialogGuida();gestioneGuidaloto_5()"
 					>
-					Capitolo 5: In Costruzione.
+					Capitolo 5: Interfaccia Loto Editor Calendario.
 				</a>
 		</li>
 		<li style="
@@ -2129,7 +2131,7 @@ background-attachment: fixed;"
 					display: block;" 
 					onclick="chiudiDialogGuida();gestioneGuidaloto_6()"
 					>
-					Capitolo 6:  In Costruzione.
+					Capitolo 6:  Guida all'uso del viva voce parte 1.
 				</a>
 		</li>
 		<li style="
@@ -2142,7 +2144,7 @@ background-attachment: fixed;"
 					display: block;" 
 					onclick="chiudiDialogGuida();gestioneGuidaloto_7()"
 					>
-					Capitolo 7:  In Costruzione.
+					Capitolo 7:  Guida all'uso del viva voce parte 2.
 				</a>
 		</li>
 		<li style="
@@ -2155,7 +2157,9 @@ background-attachment: fixed;"
 					display: block;" 
 					onclick="chiudiDialogGuida();gestioneGuidaloto_8()"
 					>
-					Capitolo 8:  In Costruzione.
+					Capitolo 8:  Gestione creazione ed eliminazione<br> 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					incarichi di questo giorno aperto.
 				</a>
 		</li>
 		<li style="
@@ -2168,7 +2172,7 @@ background-attachment: fixed;"
 					display: block;" 
 					onclick="chiudiDialogGuida();gestioneGuidaloto_9()"
 					>
-					Capitolo 9:  In Costruzione.
+					Capitolo 9:  Guida all'uso delle ToolBar.
 				</a>
 		</li>
 		<li style="
@@ -2181,7 +2185,7 @@ background-attachment: fixed;"
 					display: block;" 
 					onclick="chiudiDialogGuida();gestioneGuidaloto_10()"
 					>
-					Capitolo 10:  In Costruzione.
+					Capitolo 10:  Impostazioni e personalizzazioni.
 				</a>
 		</li>
 		<li style="
@@ -2221,6 +2225,45 @@ background-attachment: fixed;"
 					onclick="chiudiDialogGuida();gestioneGuidaloto_13()"
 					>
 					Capitolo 13:  In Costruzione.
+				</a>
+		</li>
+		<li style="
+			padding: 8px 0; 
+			border-bottom: 1px solid #f0f0f0;"
+			>
+				<a href="#paragrafo-guida-14" style="
+					text-decoration: none;
+					color: #333; 
+					display: block;" 
+					onclick="chiudiDialogGuida();gestioneGuidaloto_14()"
+					>
+					Capitolo 14:  In Costruzione.
+				</a>
+		</li>
+		<li style="
+			padding: 8px 0; 
+			border-bottom: 1px solid #f0f0f0;"
+			>
+				<a href="#paragrafo-guida-15" style="
+					text-decoration: none;
+					color: #333; 
+					display: block;" 
+					onclick="chiudiDialogGuida();gestioneGuidaloto_15()"
+					>
+					Capitolo 15:  In Costruzione.
+				</a>
+		</li>
+		<li style="
+			padding: 8px 0; 
+			border-bottom: 1px solid #f0f0f0;"
+			>
+				<a href="#paragrafo-guida-16" style="
+					text-decoration: none;
+					color: #333; 
+					display: block;" 
+					onclick="chiudiDialogGuida();gestioneGuidaloto_16()"
+					>
+					Capitolo 16:  In Costruzione.
 				</a>
 		</li>
 		
@@ -2339,10 +2382,10 @@ background-attachment: fixed;"
 			document.getElementById('paragrafo-guida-15').scrollIntoView({ behavior: 'smooth'});
 		}
 		 <!-- *********************************************************************************************************************************************** -->
-		
 		function gestioneProgetti(){
-			alert('Bottone cliccato con successo! Progetti');
+			window.location.href = "ProgettiMikTattico.html";
 		}
+	
 		function gestioneLotoCalendarioPrivacy(){
 			apriPrivacy();
 		}
