@@ -164,6 +164,155 @@ background-attachment: fixed;"
     border: 1px solid rgba(41, 128, 185, 0.3);
     width: 75%;"
     >
+	  <tr>
+			<!-- ************************************************[ RIGA INIZIALE ]****************************************** -->
+			<!-- ************************************************[ COLONNA 0 ]****************************************** -->
+            <td 
+            
+            style="
+            width: 35%; 
+            height: 100%;
+            vertical-align: middle;
+            text-align:right
+            padding: 20px 0;
+            border: 1px solid rgba(41, 128, 185, 0.3);
+            "
+            >
+				
+				<button id="btn_guide_varie_iniziale" 
+						style="
+						background-color: rgba(120, 190, 230, 0.5);
+						color: #2f3640; 
+						display: block;
+						margin-left: auto;
+						margin-right: 0;
+						border: none;
+						width: 38px;
+						
+						height:450px;
+						border-top-left-radius: 12px;
+						border-top-right-radius: 3px;
+						border-bottom-left-radius: 12px;
+						border-bottom-right-radius: 3px;
+						cursor: pointer;
+						
+						
+						text-align: center;
+						line-height: 1.25;
+						letter-spacing:2px;
+						padding:0;
+						font-weight: bold;
+						font-size: 18px;
+						text-decoration: none;
+						
+						"
+						onclick="apriDialog_progetti()">
+			
+				<br>G<br>u<br>i<br>d<br>e<br>.<br>.<br>.
+            </button>
+				
+				
+				
+			</td>	
+			<!-- ************************************************[ COLONNA 1 ]****************************************** -->
+			<td 
+			align="center"
+			style="witdth: 35%; 
+			vertical-align: top;
+			border: 1px solid rgba(41, 128, 185, 0.3);
+			"
+			>
+				
+				<div id="progetti_in_corso_3" class="step_3">
+					<div class="progetti_step_3"
+				
+					<div class="testo-spiegazione">
+						<h2 style="color: #4CAF50; margin-top: 0;">Relazione Tecnica:</h2>
+							<h3 style="color: #2980b9; font-weight: normal; margin-bottom: 20px;">Programmazione e sviluppo Loto Calendario completato nell'anno 2025.</h3>
+							<h3 style="color: #2980b9; font-weight: normal; margin-bottom: 20px;">Struttura e modello di sicurezza utilizzato in Loto Calendario.</h3>
+							<p>Le immagini qui sotto, mostrano l'albero dei MainActivity, delle sotto classi, e dei connettori.</p>
+					</div>
+					<div class="immagine-step">
+					<img 
+					src="img_guida_loto/img_99.jpg" 
+					width="320"
+					height="400"
+					alt="Schermata 1 LotoCalendario"
+					>
+					</div>
+					<div class="immagine-step">
+					<img 
+					src="img_guida_loto/img_100.jpg" 
+					width="320"
+					height="400"
+					alt="Schermata 1 LotoCalendario"
+					>
+					</div>
+					
+					<p>Avrete notato che la struttura non e' standard per la presenza di classi dal nome particolare come</p>
+					<p>Controllori, Connettori, Costruttori.</p>
+					<p>Loto Calendario e' strutturata con un prototipo di modello di sicurezza, progettato da me, che si</p>
+					<p>chiama modello di sicurezza P, ed e' una evoluzione del modello di programmazione Java MVC.</p>
+					<p>Lo scopo del mio modello P e' quello di disconnettere ulteriormente l'interfaccia grafica dalla</p>
+					<p>logica interna, e siccome ne e' uscito un comportamento dei dati che si comportano, se raffigurati</p>
+					<p>sotto forma di immagini geometriche, un percorso a forma di P. Il modello si comporta cosi:</p>
+					<p>1- I MainActivity:</p>
+					<p>Tutti i MainActivity sono diventati solo dei trasmettittori di segnali dall'interfaccia e dall'</p>
+					<p>utente che sta usando la applicazione.</p>
+					<p>2- I Controllori:</p>
+					<p>Sono i ricevitori dei segnali dai MainActivity con una sola regola fondamentale: non trasmettere mai</p>
+					<p>segnali ai MainActivity. I controllori, analizzano i segnali e smistano i segnali alle sotto classi</p>
+					<p>per eseguire le operazioni necessarie.</p>
+					<p>3- le sotto classi adibite alle operazioni:</p>
+					<p>Le sotto classi adibite alle operazioni, eseguono le operazioni richieste dal controllore.</p>
+					<p>Completate le operazioni, aggiornano il loro connettore di sotto classe con il prodotto delle</p>
+					<p>operazioni appena eseguite. Le sotto classi non comunicano mai con il controllore che le aveva</p>
+					<p>chiamate. I dati rimangono nei connettori.</p>
+					<p>Il controllore, dopo che aveva chiamato la sottoclasse dandoli il compito di eseguire una operazione,</p>
+					<p>chiama il connettore, riceve il dato prodotto dalla operazione, trasmette un sengale alla sotto classe</p>
+					<p>e gli ordina alla sotto classe di pulire il suo connettore.</p>
+					<p>Infine il controllore aggiorna il suo di connettore, e rimane in attesa del segnale dal MainActivity</p>
+					<p>di pulire il suo connettore.</p>
+					<p>Il MainActivity, dopo che aveva trasmesso il comando di eseguire una determinata operazione al Controllore,</p>
+					<p>chiama il connettore, recupera il dato, aggiorna il componente, per esempio un ListView, trasmette il sengale al</p>
+					<p>controllore, e gli ordina di pulire il suo connettore.</p>
+					<p>Operazione eseguita, e interfaccia aggiornata.</p>
+					<p>Quindi il modello P in loto calendario, funziona cosi ed e' pure una versione antecedente a quella che usero</p>
+					<p>in KizanNet. Utilizzero un nuovo modello P, ancora più complesso che ho chiamato modello PP perchè in KizanNet</p>
+					<p>disconnettero anche i Controllori dall'interfaccia grafica MainActivity con un ulteriore Connettore.</p>
+					<p>Quindi attualmente, in Loto Calendario, ogni MainActivity, ogni sotto classe, ogni Controllore, hanno ugnuno</p>
+					<p>di loro un connettore. e il flusso dei dati in discesa a partire dai MainActivity sono sempre a senso unico</p>
+					<p>verso il basso. Solo dopo aver completato l'operazione, il dato passa diciamo metaforicamente lateralmente</p>
+					<p>attraverso in connettori, ma non vengo spinti dalle sottoclassi, vengono pescati dalle sopra classi. Il trucco</p>
+					<p>per disconnettere i mainActivity dalle sotto classi sta qui, ossia, trasmettere il segnale al connettore,</p>
+					<p>e pescare il dato prodotto nel connettore. Infatti nei Controllori, nei connettori e nelle sottoclassi non c'e'</p>
+					<p>mai una importazione di MainActivity in un Controllore, e nemmeno nelle sotto classi, ci sono impirtazioni della</p>
+					<p>classe che la ha chiamta, e nemmeno i loro connettori.</p>
+					
+					<div class="immagine-step">
+					<img 
+					src="img_guida_loto/img_102.jpg" 
+					width="360"
+					height="500"
+					alt="Schermata 1 LotoCalendario"
+					>
+					</div>
+					<p>La disconnessione e' totale, e nel nuovo modello PP</p>
+					<p>che usero in KizanNet, questa disconnessione sara anche migliorata.</p>
+					<p>In KizanNet opterò per una struttura che disconnette totalmente il Controllore dal Main activity, attraverso un'</p>
+					<p>ulteriore connettore. Quindi i segnali dall'interfaccia grafica passeranno per un connettore, e il controllore</p>
+					<p>peschera i segnali dal connettore, in modo che il Controllore non abbia nessun riferimento al MainActivity.</p>
+					<p>Il problema che dovro affrontare per fare questo, e' capire come dare l'impulso iniziale al Controllore di</p>
+					<p>andare a leggersi i segnali dal connettore senza segnali diretti dall'interfaccia. E' un bel rompicapo, che</p>
+					<p>studiero prossimamente.</p>
+				
+				</div>
+				</div>
+				
+			</td>	
+			
+		</tr>
+		
     <tr>
 			<!-- ************************************************[ RIGA 0 ]****************************************** -->
 			<!-- ************************************************[ COLONNA 0 ]****************************************** -->
