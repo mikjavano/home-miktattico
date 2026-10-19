@@ -1,0 +1,1198 @@
+<!--
+   ProgettiMikTattico.html
+   
+   Copyright 2026 secre <secre@inunotaysho-HP-EliteBook-840-G6>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>senza_nome</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.38" />
+</head>
+
+<body
+	style="background-image: url('/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/1791381243797.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;"
+>
+ 
+
+<!-- ****************************************************[Table 0, 4 bottoni in alto, 4 colonne ]*********************************************** -->
+    <table style="
+    border: 1px solid rgba(41, 128, 185, 0.3);
+    width: 100%;"
+    >
+        
+        <!-- RIGA 1: I bottoni principali affiancati -->
+        <tr>
+            
+            <td align="center">
+                <a href="#Progetti">
+					<button id="btn_home_mik_tattico" 
+						style="
+							background-color: rgba(41, 128, 185, 0.65);
+							color: white; 
+							border: none;
+							padding: 10px 15px;
+							border-radius: 6px;
+							cursor: pointer;
+							font-weight: bold;"
+					onclick="returnHomeMikTattico()"
+                 >
+				Home MikTattico
+            </button>  
+					</a>
+            </td>
+            <td align="center">
+                <a href="#privacy">
+					<button id="btn_loto_calendario_privacy" 
+						style="
+						background-color: rgba(41, 128, 185, 0.65);
+						color: white; 
+						border: none;
+						padding: 10px 15px;
+						border-radius: 6px;
+						cursor: pointer;
+						font-weight: bold;"
+                 onclick="gestioneLotoCalendarioPrivacy()"
+                 >
+				Privacy
+            </button>
+					</a>
+            </td>
+            <td align="center">
+                <a href="#Download">
+					<button id="btn_download_loto_calendario" 
+						style="
+						background-color: rgba(41, 128, 185, 0.65);
+						color: white; 
+						border: none;
+						padding: 5px 10px;
+						border-radius: 6px;
+						cursor: pointer;
+						font-weight: bold;"
+						onclick="gestioneDownload()"
+                 >
+				<img src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/icons8-scaricamento-64.png" 
+					alt="Download LotoCalendario" 
+					style="
+						width: 28px;
+						height: 28px; 
+						image-rendering: pixelated;
+						"
+				>
+            </button>
+            </a>
+            </td>
+            
+             <td 
+             align="right"
+             >
+                <a href="#Contattami">
+					<button id="btn_contattami" 
+						style="
+						background-color: rgba(41, 128, 185, 0.65);
+						color: white; 
+						border: none;
+						padding: 10px 15px;
+						border-radius: 6px;
+						cursor: pointer;
+						font-weight: bold;
+						font-size: 18px;
+						"                 
+						onclick="gestioneContattami()"
+						>
+				@
+            </button></a>
+            </td>
+            <td align="left">
+                <a href="#Donazioni">
+					<button id="btn_donazione" 
+						style="
+						background-color: rgba(41, 128, 185, 0.65);
+						color: white; 
+						border: none;
+						padding: 5px 10px;
+						border-radius: 6px;
+						cursor: pointer;
+						font-weight: bold;
+						font-size: 14px;
+						"                 
+						onclick="gestioneDonazioni()"
+						>
+						<img 
+						src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/icons8-regalo-48.png" 
+						alt="Regalo" 
+						style="
+						width: 28px;
+						height: 28px; 
+						image-rendering: pixelated;
+						"
+					> 					
+            </button>
+            </a>
+            </td>
+        </tr>
+
+    </table>
+    
+    <table
+    style="
+    border: 1px solid rgba(41, 128, 185, 0.3);
+    width: 75%;"
+    >
+    <tr>
+			<!-- ************************************************[ RIGA 0 ]****************************************** -->
+			<!-- ************************************************[ COLONNA 0 ]****************************************** -->
+            <td 
+            
+            style="
+            width: 35%; 
+            height: 100%;
+            vertical-align: middle;
+            text-align:right
+            padding: 20px 0;
+            border: 1px solid rgba(41, 128, 185, 0.3);
+            "
+            >
+				
+				<button id="btn_guide_varie_0" 
+						style="
+						background-color: rgba(120, 190, 230, 0.5);
+						color: #2f3640; 
+						display: block;
+						margin-left: auto;
+						margin-right: 0;
+						border: none;
+						width: 38px;
+						
+						height:7290px;
+						border-top-left-radius: 12px;
+						border-top-right-radius: 3px;
+						border-bottom-left-radius: 12px;
+						border-bottom-right-radius: 3px;
+						cursor: pointer;
+						
+						
+						text-align: center;
+						line-height: 1.25;
+						letter-spacing:2px;
+						padding:0;
+						font-weight: bold;
+						font-size: 18px;
+						text-decoration: none;
+						
+						"
+						onclick="apriDialog_progetti()">
+			
+				<br>G<br>u<br>i<br>d<br>e<br>.<br>.<br>.
+            </button>
+				
+				
+				
+			</td>	
+			<!-- ************************************************[ COLONNA 1 ]****************************************** -->
+			<td 
+			align="center"
+			style="witdth: 35%; 
+			vertical-align: top;
+			border: 1px solid rgba(41, 128, 185, 0.3);
+			"
+			>
+				<div id="progetti_in_corso_0" class="step_0">
+					<div class="progetti_step_0"
+				
+						<div class="testo-spiegazione">
+							<h2 style="color: #4CAF50; margin-top: 0;">Relazione Tecnica:</h2>
+							<h3 style="color: #2980b9; font-weight: normal; margin-bottom: 20px;">Programmazione e sviluppo, anno 2026,</h3>
+							<h3 style="color: #2980b9; font-weight: normal; margin-bottom: 20px;">e origine del nuovo progetto KizanNet</h3>
+								<p>Dicembre anno 2025, avendo completato una versione di Loto Calendario perfettamente funzionante, </p>
+								<p>ho deciso di lanciarmi in un nuovo progetto. Siccome durante lo sviluppo di Loto Calendario ho</p>
+								<p>scoperto alcune cose preoccupanti riguardo le String, ossia questo:</p>
+								<p>______________________________________________________________________</p>
+								<p>(Detto da Gemini e ChatGTP anni fà)</p>
+								
+								<p>1.  Immutabilità e persistenza delle String in Java e Kotlin:</p>
+								<p>		Le stringhe standard java sono oggetti immutabili e risiedono nello String Pool</p>
+								<p>		o nell'heap generale della memoria. Questo significa che, anche quando si tenta</p>
+								<p>		di azzerare una variabile o di impostarla a null, il contenuto testuale originale</p>
+								<p>		in chiaro continua a persistere fisso in quella locazione di memoria.</p>
+								<p>2.  Imprevedibilità del Garbage Collector e rischio di Memory Dump:</p>
+								<p>		Il ciclo di vita del Garbage Collector (GC) è gestito autonomamente dalla </p>
+								<p>		macchina virtuale e non offre alcuna garanzia sul momento esatto in cui la</p>
+								<p>	 	memoria viene effettivamente liberata o sovrascritta. Questo intervallo di</p>
+								<p>	  	tempo imprevedibile lascia i dati sensibili esposti a potenziali Memory </p>
+								<p>	  	Dump o a letture illecite della RAM da parte dei maleintenzionati.</p>
+								<p>______________________________________________________________________</p>
+								<p>Di conseguenza, a quei tempi, ho abbozzato un progettino integrato, nel bel mezzo della creazione di</p>
+								<p>Loto Calendario, un prototipo di alternativa alla String. Ossia una specie di evoluzione di una array</p>
+								<p>char[] rendendola dinamica come la String; rendendola capace di fare la maggior parte delle operazioni</p>
+								<p>che si possono fare con la String, ma sopratutto, e' controllabile il suo contenuto in tempo reale in</p>
+								<p>modo diretto oppure impostando un conto alla rovescia prima di sovrascrivere e distruggere veramente i</p>
+								<p>dati. Cosi risiedono in Ram, non più del tempo neccessario impedendo in modo assoluto, qualsiasi </p>
+								<p>violazione della Ram dai male intenzionati.		</p>						  	
+								<p>(gli manca solo la trasformazione da array char[] in numero double e float)</p>
+								<p>Detto questo, sappiate che Loto Calendario contiene questa libreria, ed e' in uso, solo per la gestione</p>
+								<p>dei contenuti degli incarichi. Lo so, che essendo un semplice calendario, non neccessita di questo tipo</p>
+								<p>di accorgimenti riguardo alla sicurezza dei dati, perche e' impossibile che un calendario venga utilizzato</p>
+								<p>per salvare e conservare informazioni importanti del tipo documenti aziendali. Ma io avevo pensato che</p>
+								<p>magari un giorno, Loto Calendario, potrebbe evolversi in una agenda di sicurezza o una rubbrica aziendale</p>
+								<p>blindata o qualcosa del genere, cosi ho usato un po Loto Calendario per sperimentare e sviluppare questa </p>
+								<p>libreria. L' immagine qua sotto, mostra la sua struttura.</p>
+								<p>______________________________________________________________________</p>
+									<div class="immagine-step">
+										<img 
+										src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/img_96.jpg" 
+										width="300"
+										alt="Schermata 1 LotoCalendario"
+										>
+									</div>
+								<p>______________________________________________________________________</p>
+								
+								<p>Questo prototipo di libreria, si chiama Band, ma per esigenza e per gestire gli array char[] do dovuto</p>
+								<p>creare degli strumenti publici ulteriori. Le classi istanziabili a chiamata sono:</p>
+								<p>Band banda_1 = new Band();</p>
+								<p>BandJump jump_Band = new BandJump();</p>
+								<p>BandMake make = new BandMake();</p>
+								<p>Le altre visibili nell'immagine, sono le parti degli algoritmi interni private e non chiamabili a parte passando dalla Band.</p>
+								<p>Band e' l'array char[] che sostituisce la String.</p>
+								<p>BandJump serve a riallocare in nuova area di memoria ram, e il dato contenuto non puo essere alterato perche non possiede i strumenti di Band.</p>
+								<p>Con la BandJump si conserva il dato temporaneamente, cosi da poter fare piazza pulita della variabile Band che magari contiene il contenuto</p>
+								<p>ricevuto da altre classi cosi si puo far scattare la onDestroy e pulire il contenuto per riferimento della memoria proveniente da altra classe.</p>
+								<p>Cioè se io creo un contenuto in Band nuovo di zecca qui, il riferimento di memoria e' qui, ma se io verso in una nuova band qui il contenuto</p>
+								<p>proveniente da una sotto classe, ereditando l'indirizzo della ram, questa Band disintegra il contenuto creato anche da un'altra sotto classe chiamata. </p>
+								<p>Quindi La BandJump serve a salvare il contenuto in una nuova area di memoria, e poter pulire il contenuto al riferimento creato in un'altra sotto classe, </p>
+								<p>La Band Make, invece, serve per le conversioni, ossia convertire un contenuto ricevuto da un editText per esempio, e trasformarlo in una Band.</p>
+								<p>Qui sotto, c'e' un'esempio di uso di BandMake che converte qualsiasi cosa in modo compatibile alla Band:</p>
+<!-- ************************************************************************************************************************* -->											
+								<a href="#Copia_esempio_1">
+									<button id="btn_copia_1" 
+										style="
+											background-color: rgba(41, 128, 185, 0);
+											color: white; 
+											border: none;
+											padding: 3px 3px;
+											border-radius: 6px;
+											cursor: pointer;
+											font-weight: bold;
+											font-size: 14px;
+											"                 
+										onclick="copia_esempio_1()"
+										>
+									<img 
+									src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/img_95.png" 
+									alt="Copia_2" 
+									style="
+									width: 75px;
+									height: 75px; 
+									image-rendering: pixelated;
+									"
+									> 					
+									</button>
+								</a>
+								
+	<!-- ************************************************[ CONTAINER ORRIZZONTALE 1 ]****************************************** -->										
+								<div style="
+										background-color: #1e1e1e; 
+										color: #d4d4d4; 
+										padding: 15px; 
+										border-radius: 8px; 
+										margin: 15px 0;
+										width:380px;
+										 height:620px;
+										"
+										>
+										<h4 style="
+										color: #3498db; 
+										margin-top: 0;
+										text-align: left;
+										"
+										>
+										Esempio Tecnico della mia libreria Band.
+										</h4>  
+										
+										
+										<pre id="esempio_1" style="
+										overflow-x: auto; 
+										white-space: pre; 
+										font-family: monospace; 
+										font-size: 0.9em; 
+										 margin-top: 0;
+										 width:320px;
+										 height:570px;
+										 text-align: left;
+										"
+										>
+										
+Band indirizzo = new Band();
+Band contenuto = new Band();
+...
+...
+...
+ricezione contenuto o dati da altre classi ecc...
+    
+indirizzo.uguale(get dati da classe esterna);
+contenuto.uguale(get dati da classe esterna);
+...
+operazioni varie con queste due Band
+...
+e in caso di necessita di rialocare la memoria:
+...
+BandJump jump_indirizzo = new BandJump();
+BandJump jump_contenuto = new BandJump();
+indirizzo.onDestroy();
+contenuto.onDestroy();
+...
+...
+e da ora in poi si lavora con la jump_indirizzo, che e' una BandJump, 
+che e' senza funzioni della Band cioe le tipiche della String.
+La BandJump non e' altro che un deposito.
+...
+operazioni varie con la jump_indirizzo e la jump_contenuto
+che non e' altro che una nuova rialocazione in ram in questa
+classe o mainActivity e quanto l'operazione e' finita:
+...
+...
+...
+jump_indirizzo.onDestroy();
+jump_contenuto.onDestroy();
+
+//-------------------[ Esempio di conversione con BandMake ]-----------------
+Band banda_1 = new Band();
+	if(interuttore == 0) {
+                BandMake makeByte = new BandMake();
+                byte num_byte = -128;
+                char[] char_num_byte = makeByte.getBandTerm(num_byte);
+                stampa("TestBandMake", "ESPERIMENTO 3 PRODOTTO DELLA TRASFORMAZIONE = ", char_num_byte);
+                //oppure:
+                banda_1.uguale(makeByte.getBandTerm(num_byte));
+                stampa("TestBandMake", "ESPERIMENTO 3 PRODOTTO DELLA TRASFORMAZIONE = ", banda_1.getBandTerm());
+                makeByte.onDestroy();
+            }
+            if (interuttore == 1) {
+                BandMake makeShort = new BandMake();
+                short num_short = -32768;
+                char[] char_num_short = makeShort.getBandTerm(num_short);
+                stampa("TestBandMake", "ESPERIMENTO 3 PRODOTTO DELLA TRASFORMAZIONE = ", char_num_short);
+                banda_1.uguale(makeShort.getBandTerm(num_byte));
+                stampa("TestBandMake", "ESPERIMENTO 3 PRODOTTO DELLA TRASFORMAZIONE = ", banda_1.getBandTerm());
+                makeShort.onDestroy();
+            }
+            if (interuttore == 2) {
+                BandMake makeInt = new BandMake();
+                int make_Int = 2147483646;
+                char[] char_num_int = makeInt.getBandTerm(make_Int);
+                stampa("TestBandMake", "ESPERIMENTO 3 PRODOTTO DELLA TRASFORMAZIONE = ", char_num_int);
+                banda_1.uguale(makeInt.getBandTerm(num_byte));
+                stampa("TestBandMake", "ESPERIMENTO 3 PRODOTTO DELLA TRASFORMAZIONE = ", banda_1.getBandTerm());
+                makeInt.onDestroy();
+            }
+            if (interuttore == 3) {
+                BandMake makeLong = new BandMake();
+                long make_Long = -9223372036854775808L;
+                char[] char_num_long = makeLong.getBandTerm(make_Long);
+                stampa("TestBandMake", "ESPERIMENTO 3 PRODOTTO DELLA TRASFORMAZIONE = ", char_num_long);
+                banda_1.uguale(makeLong.getBandTerm(num_byte));
+                stampa("TestBandMake", "ESPERIMENTO 3 PRODOTTO DELLA TRASFORMAZIONE = ", banda_1.getBandTerm());
+                makeLong.onDestroy();
+            }
+            banda_1.onDestroy();
+            //oppure:
+            banda_1.setCountDown(1000);
+ //--------------------------------------------------------------------------           
+
+
+
+										</pre>
+									</div>	
+<!-- ********************************************************************************************************************** -->									
+
+								<p><b>Da tenere presente che questo prototipo di Band, BandJump, BandMake hanno tutte la funzione</b></p>
+								<p><b>conto alla rovescia:</b></p>
+								<p><b>Band banda_1 = new Band();</b></p>
+								<p>Ecco un nuovo conto alla rovescia impostato cosi:</p>	
+								<p><b>banda_1.setCountDown(1000);</b></p>
+								
+								<p><b>Questo pezzetto di codice, e' il meccanismo di pulizia delle Band, ossia una delle tante onDestroy()</b></p>
+								<p><b>presenti nelle varie sottoclassi della mia libreria.</b></p>
+		   		
+<!-- ************************************************[ CONTAINER ORRIZZONTALE 1 ]****************************************** -->										
+								<a href="#Copia_esempio_2">
+									<button id="btn_copia_2" 
+										style="
+											background-color: rgba(41, 128, 185, 0);
+											color: white; 
+											border: none;
+											padding: 3px 3px;
+											border-radius: 6px;
+											cursor: pointer;
+											font-weight: bold;
+											font-size: 14px;
+											"                 
+										onclick="copia_esempio_2()"
+										>
+									<img 
+									src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/img_95.png" 
+									alt="Copia_2" 
+									style="
+									width: 75px;
+									height: 75px; 
+									image-rendering: pixelated;
+									"
+									> 					
+									</button>
+								</a>
+<!-- ************************************************[ CONTAINER ORRIZZONTALE 1 ]****************************************** -->											
+									<div style="
+										background-color: #1e1e1e; 
+										color: #d4d4d4; 
+										padding: 15px; 
+										border-radius: 8px; 
+										margin: 15px 0;
+										width:380px;
+										 height:400px;
+										"
+										>
+										<h4 style="
+										color: #3498db; 
+										margin-top: 0;
+										text-align: left;
+										"
+										>
+										Esempio Tecnico: Bonifica e Distruzione dell'Array di Caratteri (char[])
+										</h4>  
+										<pre id="esempio_2" style="
+										overflow-x: auto; 
+										white-space: pre; 
+										font-family: monospace; 
+										font-size: 0.9em; 
+										 margin-top: 0;
+										 width:320px;
+										 height:320px;
+										 text-align: left;
+										"
+										>
+// Metodo di pulizia e bonifica attiva della memoria RAM
+    private void onDestroyBandChar(){
+
+        if(bandChar != null) {
+            if (bandChar.length > 0) {
+                int lunghezza = bandChar.length - 1;
+                int interuttore = 1;
+                int contattore = -1;
+                Random rand = new SecureRandom();
+                while (interuttore == 1) {
+                    contattore++;
+                    bandChar[contattore] = (char) (rand.nextInt(94) + 33);
+                    if (contattore == lunghezza) {
+                        interuttore = 0;
+                    }
+                }
+                contattore++;
+                interuttore = 1;
+                while (interuttore == 1) {
+                    contattore--;
+                    bandChar[contattore] = '\0';
+                    if (contattore == 0) {
+                        interuttore = 0;
+                    }
+                }
+                dummySink = this.bandChar;
+                dummySink = null;
+                bandChar = null;
+                //Log.v("NEWSTRING", "OPERAZIONE DI DISTRUZIONE AVVENUTA IN BAND Char CON SUCCESSO");
+            }
+
+        }
+    }
+										</pre>
+									</div>
+<!-- ************************************************[ CONTAINER ORRIZZONTALE 1 ]****************************************** -->				
+									
+									<p><b>E quando ho sospeso con il Loto Calendario, mi e' rimasto nella testa il desiderio</b></p>
+									<p><b>di evolvere la Band Ulteriormente.</b> <p>
+									<p>E cosi, un'anno fa, mi sono dedicato a tempo perso, a un nuovo progetto. Il fatto e' che la</p>
+									<p>String e' molto potente, anche se ha la problematica oggi giorno con tutti i male intenzionati,</p>
+									<p>anche perchè con la String si possono fare variabili cosi:</p>
+									<p>static String stringata = new String();</p>
+									<p>String[][] stringhe = new String[][];</p>
+									<p>static String[][] stringhe = new String[][];</p>
+									<p>La mia Band risolveva solo il problema del primo tipo di String ossia la:</p>
+									<p>String stringa = new String();</p>
+									<p>Ebbene in questo ultimo anno 2026, mi sono dedicato a un qualcosa che sostituisca la static String</p>
+									<p>Senza che diventi letale per le applicazioni Android dato che il pericolo di Memory Dump con le</p>
+									<p>static String diventa veramente un problema serio e non una remota possibilità.</p>
+									<p>E ne è uscito un qualcosa di mostruoso!! Non vi dico le problematiche, i ragionamenti, i mal funzionamenti</p>
+									<p>e un sacco di problematiche per evitare che venga comprommessa la sicurezza a causa della nuova Band di tipo</p>
+									<p>Statico!! E ci sono riuscito, ma ho dovuto progettare un nuovo sistema di criptaggio multiplo di tipi diversi</p>
+									<p>scartando il sistema end to end, che conoscono tutti. Con piu e piu cicli di criptaggio, e non vi dico qui</p>
+									<p>ne quali sono, per non comprommettere la sicurezza della Band Versione 2.0, ne vi mostrero come funziona internamente,</p>
+									<p>sta di fatto che questa cosa me la tengo per me e me soltanto, anche perche non intendo regalare al mondo questo</p>
+									<p>sistema di sicurezza, e al massimo vi mostro qui sotto, come la utilizzero nel mio prossimo progetto, Ossia:</p>
+									<p>KizanNet chat sicura a livello militare.</p>
+									<p>KizanNet e' in fase di progettazione e integrera la nuova versione di Band con la BandHub<p>
+									<p>(BandHub sostitutizione della pericolosa static String)</p>
+									<p>Da tenere presente che ho evoluto anche la Band normale volatile in modo controllato, ma in questo anno, ho fatto</p>
+									<p>anche progetti, test ed esperimenti su anche un prototipo di sostituzione della String[][] ma questa e' una rogna al quadrato</p>
+									<p>da sviluppare ed e' rimasta in sospeso perche necessita di un garbage collector interno che non spazza via i contenuti,</p>
+									<p>gestisce solo lo spazio disponibile e.... Lasciamo perdere la Band multidimensionale; per ora e' in sospeso per problematiche</p>
+									<p>di capacita di memoria ram. Il fatto e' che il sistema operativo Android concede una tantum di ram a seconda del tipo di</p>
+									<p>dispositivo il che porta a dei limiti di capacià disponibile per una Band multi dimensionale in stile String[][][]. In piu</p>
+									<p>non si puo assegnare a una nuova variabile multi dimensionale tutta la ram disponibile perche una parte di ram disponibile</p>
+									<p>concessa dal sistema operativo, deve essere disponibile per le interfacce grafiche e tutto il resto!! Quindi ho sospeso</p>
+									<p>la Band MultiDimensionale perche la Band e' una evoluzione di una char[] cioe' se sviluppassi questo mostro, 3 dimensioni soltanto</p>
+									<p>tipo Band[][][] sarebbero in realta char[][][][][][]!!! Riprendero in futuro questo progetto, per parlarvi di Kizan Net che integra</p>
+									<p>al suo interno la Band e BandHub. Immagine qua sotto:</p>
+									<p>______________________________________________________________________</p>
+									<div class="immagine-step">
+										<img 
+										src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/img_98.jpg" 
+										width="300"
+										alt="Schermata 1 LotoCalendario"
+										>
+									</div>
+								<p>______________________________________________________________________</p>
+									
+									<p>Alcune classi le ho censurate perche sono quelle inerenti alla criptazione per evitare problematiche e perchè sono paranoico.</p>
+									<p><b>Infine, sviluppando proprio questa libreria e solo per mero sfizio personale intellettuale, diciamo anche per ricerca scientifica</b></p>
+									<p>un bel giorno, ho pensato di metterla alla prova, con una bella chat unica nel suo genere. E cosi e' nato il progetto KizanNet.</p>
+									<p>La fregatura di KizanNet, e' che e' un casino mostruso, e di fatto non la ho ancora iniziata!! Sto ancora abbozzando, immaginando,</p>
+									<p>teorizzando, come dovrebbe funzionare e ho soltanto inizializzato un principio di struttura, ma sta cosa e' un bel po più incasinata</p>
+									<p>di Loto calendario. Anche se detto tra noi, controllare il tempo con tutte le interferenze del sistema operativo e inizializzare un</p>
+									<p>sistema di sicurezza anti memory Dump, non e' stata una passeggiata.</p>
+									
+									
+									
+									
+						</div>
+					</div>
+				</div>
+			</td>	
+			
+		</tr>
+    <tr>
+			<!-- ************************************************[ RIGA 1 ]****************************************** -->
+			<!-- ************************************************[ COLONNA 0 ]****************************************** -->
+            <td 
+            
+            style="
+            width: 35%; 
+            height: 100%;
+            vertical-align: middle;
+            text-align:right
+            padding: 20px 0;
+            border: 1px solid rgba(41, 128, 185, 0.3);
+            "
+            >
+				
+				<button id="btn_guide_varie_1" 
+						style="
+						background-color: rgba(120, 190, 230, 0.5);
+						color: #2f3640; 
+						display: block;
+						margin-left: auto;
+						margin-right: 0;
+						border: none;
+						width: 38px;
+						
+						height:450px;
+						border-top-left-radius: 12px;
+						border-top-right-radius: 3px;
+						border-bottom-left-radius: 12px;
+						border-bottom-right-radius: 3px;
+						cursor: pointer;
+						
+						
+						text-align: center;
+						line-height: 1.25;
+						letter-spacing:2px;
+						padding:0;
+						font-weight: bold;
+						font-size: 18px;
+						text-decoration: none;
+						
+						"
+						onclick="apriDialog_progetti()">
+			
+				<br>G<br>u<br>i<br>d<br>e<br>.<br>.<br>.
+            </button>
+				
+				
+				
+			</td>	
+			<!-- ************************************************[ COLONNA 1 ]****************************************** -->
+			<td 
+			align="center"
+			style="witdth: 35%; 
+			vertical-align: top;
+			border: 1px solid rgba(41, 128, 185, 0.3);
+			"
+			>
+				<div id="progetti_in_corso_1" class="step_1">
+					<div class="progetti_step_1"
+				
+					<div class="testo-spiegazione">
+						<h2>(Stato di sviluppo progetto KizanNet)</h2>
+					</div>
+					<div class="immagine-step">
+					<img 
+					src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/lavori_in_corso.png" 
+					width="300"
+					alt="Schermata 1 LotoCalendario"
+					>
+					</div>
+				
+				</div>
+				</div>
+				
+				
+			</td>	
+			
+		</tr>
+		<tr>
+			<!-- ************************************************[ RIGA 2 ]****************************************** -->
+			<!-- ************************************************[ COLONNA 0 ]****************************************** -->
+            <td 
+            
+            style="
+            width: 35%; 
+            height: 100%;
+            vertical-align: middle;
+            text-align:right
+            padding: 20px 0;
+            border: 1px solid rgba(41, 128, 185, 0.3);
+            "
+            >
+				
+				<button id="btn_guide_varie_2" 
+						style="
+						background-color: rgba(120, 190, 230, 0.5);
+						color: #2f3640; 
+						display: block;
+						margin-left: auto;
+						margin-right: 0;
+						border: none;
+						width: 38px;
+						
+						height:450px;
+						border-top-left-radius: 12px;
+						border-top-right-radius: 3px;
+						border-bottom-left-radius: 12px;
+						border-bottom-right-radius: 3px;
+						cursor: pointer;
+						
+						
+						text-align: center;
+						line-height: 1.25;
+						letter-spacing:2px;
+						padding:0;
+						font-weight: bold;
+						font-size: 18px;
+						text-decoration: none;
+						
+						"
+						onclick="apriDialog_progetti()">
+			
+				<br>G<br>u<br>i<br>d<br>e<br>.<br>.<br>.
+            </button>
+				
+				
+				
+			</td>	
+			<!-- ************************************************[ COLONNA 1 ]****************************************** -->
+			<td 
+			align="center"
+			style="witdth: 35%; 
+			vertical-align: top;
+			border: 1px solid rgba(41, 128, 185, 0.3);
+			"
+			>
+				
+				<div id="progetti_in_corso_2" class="step_2">
+					<div class="progetti_step_2"
+				
+					<div class="testo-spiegazione">
+						<h2>(Stato di sviluppo progetto KizanNet)</h2>
+					</div>
+					<div class="immagine-step">
+					<img 
+					src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/lavori_in_corso.png" 
+					width="300"
+					alt="Schermata 1 LotoCalendario"
+					>
+					</div>
+				
+				</div>
+				</div>
+				
+			</td>	
+			
+		</tr>
+		<tr>
+			<!-- ************************************************[ RIGA 3 ]****************************************** -->
+			<!-- ************************************************[ COLONNA 0 ]****************************************** -->
+            <td 
+            
+            style="
+            width: 35%; 
+            height: 100%;
+            vertical-align: middle;
+            text-align:right
+            padding: 20px 0;
+            border: 1px solid rgba(41, 128, 185, 0.3);
+            "
+            >
+				
+				<button id="btn_guide_varie_3" 
+						style="
+						background-color: rgba(120, 190, 230, 0.5);
+						color: #2f3640; 
+						display: block;
+						margin-left: auto;
+						margin-right: 0;
+						border: none;
+						width: 38px;
+						
+						height:450px;
+						border-top-left-radius: 12px;
+						border-top-right-radius: 3px;
+						border-bottom-left-radius: 12px;
+						border-bottom-right-radius: 3px;
+						cursor: pointer;
+						
+						
+						text-align: center;
+						line-height: 1.25;
+						letter-spacing:2px;
+						padding:0;
+						font-weight: bold;
+						font-size: 18px;
+						text-decoration: none;
+						
+						"
+						onclick="apriDialog_progetti()">
+			
+				<br>G<br>u<br>i<br>d<br>e<br>.<br>.<br>.
+            </button>
+				
+				
+				
+			</td>	
+			<!-- ************************************************[ COLONNA 1 ]****************************************** -->
+			<td 
+			align="center"
+			style="witdth: 35%; 
+			vertical-align: top;
+			border: 1px solid rgba(41, 128, 185, 0.3);
+			"
+			>
+				
+				<div id="progetti_in_corso_3" class="step_3">
+					<div class="progetti_step_3"
+				
+					<div class="testo-spiegazione">
+						<h2>(Stato di sviluppo progetto KizanNet)</h2>
+					</div>
+					<div class="immagine-step">
+					<img 
+					src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/lavori_in_corso.png" 
+					width="300"
+					alt="Schermata 1 LotoCalendario"
+					>
+					</div>
+				
+				</div>
+				</div>
+				
+			</td>	
+			
+		</tr>
+		<tr>
+			<!-- ************************************************[ RIGA 4 ]****************************************** -->
+			<!-- ************************************************[ COLONNA 0 ]****************************************** -->
+            <td 
+            
+            style="
+            width: 35%; 
+            height: 100%;
+            vertical-align: middle;
+            text-align:right
+            padding: 20px 0;
+            border: 1px solid rgba(41, 128, 185, 0.3);
+            "
+            >
+				
+				<button id="btn_guide_varie_4" 
+						style="
+						background-color: rgba(120, 190, 230, 0.5);
+						color: #2f3640; 
+						display: block;
+						margin-left: auto;
+						margin-right: 0;
+						border: none;
+						width: 38px;
+						
+						height:450px;
+						border-top-left-radius: 12px;
+						border-top-right-radius: 3px;
+						border-bottom-left-radius: 12px;
+						border-bottom-right-radius: 3px;
+						cursor: pointer;
+						
+						
+						text-align: center;
+						line-height: 1.25;
+						letter-spacing:2px;
+						padding:0;
+						font-weight: bold;
+						font-size: 18px;
+						text-decoration: none;
+						
+						"
+						onclick="apriDialog_progetti()">
+			
+				<br>G<br>u<br>i<br>d<br>e<br>.<br>.<br>.
+            </button>
+				
+				
+				
+			</td>	
+			<!-- ************************************************[ COLONNA 1 ]****************************************** -->
+			<td 
+			align="center"
+			style="witdth: 35%; 
+			vertical-align: top;
+			border: 1px solid rgba(41, 128, 185, 0.3);
+			"
+			>
+				
+				<div id="progetti_in_corso_4" class="step_4">
+					<div class="progetti_step_4"
+				
+					<div class="testo-spiegazione">
+						<h2>(Stato di sviluppo progetto KizanNet)</h2>
+					
+					</div>
+					<div class="immagine-step">
+					<img 
+					src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/lavori_in_corso.png" 
+					width="300"
+					alt="Schermata 1 LotoCalendario"
+					>
+					</div>
+				
+				</div>
+				</div>
+				
+			</td>	
+			
+		</tr>
+		<tr>
+		
+		
+    
+    
+    </table>
+    
+    
+    
+    
+    
+      <hr>
+	<!-- **************************************************[ PIE DI PAGGINA ]******************************************************* -->
+
+    <h2 id="contatti">Supporto & Bug</h2>
+    <p>
+		Se riscontri un bug, inviami un'email a:
+		<a 
+		href="mailto:miktattico.java@gmail.com" 
+		style="
+		color: #2e7d32; 
+		font-weidht:bold;
+		text-decoration: underline;">
+		miktattico.java@gmail.com
+		</a>
+		
+    </p>
+
+		
+		
+		    <!-- ******************************************************+++++++******[ DIALOG VARI: ]************************************************************ -->
+     <!-- **************************************************[ DIALOG PER SELEZIONARE UNA GUIDA SPECIFICA ]************************************************************ -->
+<div id="dialog-progetti" class="modal-overlay" style="
+	display: none; 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+	background: rgba(0,0,0,0.5); 
+	z-index: 1000; 
+	justify-content: center; 
+	align-items: center;"
+	>
+  <div class="modal-content" style="
+	background: #fff; 
+	padding: 25px; 
+	border-radius: 8px; 
+	width: 80%; 
+	max-width: 500px; 
+	box-shadow: 0 4px 15px rgba(0,0,0,0.3);"
+  >
+    
+    <h2 style="margin-top: 0;
+     font-size: 1.2rem; 
+     border-bottom: 2px solid #eee; 
+     padding-bottom: 10px;">
+     Indice dei lavori - KizanNet
+     </h2>
+    
+    <!-- La tua "ListView" di capitoli -->
+    <div class="list-view-progetti" style="max-height: 300px; 
+		overflow-y: auto; 
+		margin: 15px 0;">
+		<ul style="list-style: none; 
+			padding: 0; 
+			margin: 0;">
+			 <li style="
+			padding: 8px 0; 
+			border-bottom: 1px solid #f0f0f0;"
+			>
+				<a href="#paragrafo-progetti-inizio" style="
+					text-decoration: none;
+					color: #333;
+					display: block;" 
+					onclick="chiudiDialogProgetti();gestione_progetti_perte_1()"
+					>
+					Fase 1: Programmazione e sviluppo, anno 2026,<br> 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					e origine del nuovo progetto KizanNet
+				</a>
+		</li>
+        <li style="
+			padding: 8px 0; 
+			border-bottom: 1px solid #f0f0f0;"
+			>
+				<a href="#paragrafo-progetti-1" style="
+					text-decoration: none;
+					color: #333;
+					display: block;" 
+					onclick="chiudiDialogProgetti();gestione_progetti_perte_2()"
+					>
+					Fase 2: Progetto KizanNet in costruzione.<br> 
+				</a>
+		</li>
+		
+        <li style="
+			padding: 8px 0; 
+			border-bottom: 1px solid #f0f0f0;"
+			>
+				<a href="#paragrafo-progetti-2" style="
+					text-decoration: none;
+					color: #333; 
+					display: block;" 
+					onclick="chiudiDialogProgetti();gestione_progetti_perte_3()"
+					>
+					Fase 3: Progetto KizanNet in costruzione.<br> 
+				</a>
+		</li>
+		<li style="
+			padding: 8px 0; 
+			border-bottom: 1px solid #f0f0f0;"
+			>
+				<a href="#paragrafo-progetti-3" style="
+					text-decoration: none;
+					color: #333; 
+					display: block;" 
+					onclick="chiudiDialogProgetti();gestione_progetti_perte_4()"
+					>
+					Fase 4: Progetto KizanNet in costruzione.<br> 
+				</a>
+		</li>
+		<li style="
+			padding: 8px 0; 
+			border-bottom: 1px solid #f0f0f0;"
+			>
+				<a href="#paragrafo-progetti-4" style="
+					text-decoration: none;
+					color: #333; 
+					display: block;" 
+					onclick="chiudiDialogProgetti();gestione_progetti_perte_5()"
+					>
+					Fase 5: Progetto KizanNet in costruzione.<br> 
+				</a>
+		</li>
+		<li style="
+			padding: 8px 0; 
+			border-bottom: 1px solid #f0f0f0;"
+			>
+				<a href="#paragrafo-progetti-5" style="
+					text-decoration: none;
+					color: #333; 
+					display: block;" 
+					onclick="chiudiDialogProgetti();gestione_progetti_perte_6()"
+					>
+					Fase 6: Progetto KizanNet in costruzione.<br> 
+				</a>
+		</li>
+		
+		
+        
+      </ul>
+    </div>
+    
+    <!-- Pulsante Chiudi identico allo stile della privacy -->
+    <div style=",
+		text-align: right; 
+		margin-top: 15px;"
+		>
+      <button onclick="chiudiDialogProgetti()" 
+			style="background: #222; 
+			color: #fff; 
+			border: none; 
+			padding: 8px 16px; 
+			border-radius: 4px; 
+			cursor: pointer; 
+			font-weight: bold;">
+		Chiudi
+		</button>
+    </div>
+    
+  </div>
+</div>
+
+     <!-- **************************************************[ DIALOG INFORMATIVA SULLA PRIVACY ]************************************************************ -->
+    
+    <dialog id="privacyModal" style="padding: 25px; border-radius: 10px; border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-width: 600px; width: 90%;">
+    <h3 style="margin-top: 0; color: #333;">Informativa sulla Privacy</h3>
+    <p style="font-size: 0.9em; color: #666;"><strong>Ultimo aggiornamento:</strong> 5 ottobre 2026</p>
+    
+    <p style="font-size: 0.95em; line-height: 1.5;">
+        La presente informativa descrive le modalità di gestione dell'applicazione LotoCalendario, in merito alla privacy e ai dati degli utenti.
+    </p>
+
+    <h4 style="margin-bottom: 5px; color: #444;">1. Raccolta dei dati personali:</h4>
+    <p style="font-size: 0.9em; line-height: 1.4; margin-top: 0;">
+        L'applicazione non raccoglie, non memorizza, non registra, non trasmette alcun dato personale dell'utente verso server esterni, cloud di terze parti o soggetti esterni.
+    </p>
+
+    <h4 style="margin-bottom: 5px; color: #444;">2. Gestione dei dati locali (Memoria Interna):</h4>
+    <p style="font-size: 0.9em; line-height: 1.4; margin-top: 0;">
+        L'applicazione memorizza le informazioni riguardanti gli incarichi, appuntamenti o altro, per mano dell'utente stesso in area di memoria interna, del dispositivo, nella directory interna dove e' stata installata la applicazione stessa, e all'esterno di suddetta directory sempre e comunque nella memoria del dispositivo, o in unita Flash drive usb o altro, collegate al dispositivo, con il suo File Manager, per mano del utente e solo per suo volere o desiderio di importare, i contenuti da lui salvati all'esterno.
+    </p>
+    <h4 style="margin-bottom: 5px; color: #444;">3. Sicurezza:</h4>
+    <p style="font-size: 0.9em; line-height: 1.4; margin-top: 0;">
+       Poiché gli incarichi creati dall'utente, sono salvati internamente nella directory di installazione della applicazione, nella directory di default preposta, la sicurezza di ciò che viene inserito dall'utente stesso, e' di livello medio alto perché protetto dal sistema operativo.
+    </p>
+
+    <div style="text-align: right; margin-top: 20px;">
+        <button onclick="chiudiPrivacy()" style="padding: 8px 16px; background-color: #333; color: white; border: none; border-radius: 5px; cursor: pointer;">Chiudi</button>
+    </div>
+	</dialog>
+    <!-- ******************************************************************************************************************************** -->
+		
+		<!-- ******************************************************[ FUNZIONI SCRIPT DELLA GUIDA LOTO CALENDARIO]********************************************* -->
+		    <script>
+		function apriDialog_progetti() {
+			document.getElementById('dialog-progetti').style.display = 'flex';
+		}
+
+		function chiudiDialogProgetti() {
+			document.getElementById('dialog-progetti').style.display = 'none';
+		}
+		function gestione_progetti_perte_1(){
+			document.getElementById('progetti_in_corso_0').scrollIntoView({ behavior: 'smooth'});
+		}
+	
+		function gestione_progetti_perte_2(){
+			document.getElementById('progetti_in_corso_1').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_3(){
+			document.getElementById('progetti_in_corso_2').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_4(){
+			document.getElementById('progetti_in_corso_3').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_5(){
+			document.getElementById('progetti_in_corso_4').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_6(){
+			document.getElementById('progetti_in_corso_5').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_7(){
+			document.getElementById('progetti_in_corso_6').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_8(){
+			document.getElementById('progetti_in_corso_7').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_9(){
+			document.getElementById('progetti_in_corso_8').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_10(){
+			document.getElementById('progetti_in_corso_9').scrollIntoView({ behavior: 'smooth'});
+		}
+		
+		 <!-- *********************************************************************************************************************************************** -->
+		
+		function returnHomeMikTattico(){
+			window.location.href = "HomeMikTattico.html";
+		}
+		function gestioneLotoCalendarioPrivacy(){
+			apriPrivacy();
+		}
+		function apriPrivacy(){
+			const modal = document.getElementById('privacyModal');
+			modal.showModal();
+		}
+		function chiudiPrivacy(){
+			const modal = document.getElementById('privacyModal');
+			modal.close();
+		}
+		function gestioneDownload(){
+			var conferma = confirm("Sei sicuro di voler scaricare Loto Calendario?");
+			if(conferma){
+				window.open('https://github.com/mikjavano/home-miktattico/raw/refs/heads/main/app-release.apk', '_blank');
+			}
+		}
+		function gestioneContattami(){
+			window.location.href = "mailto:miktattico.java@gmail.com?subject=Support%20LotoCalendario";
+		}
+		function gestioneDonazioni(){
+			window.open("https://www.paypal.me/LotoApp1001","_blank");
+		}
+		function copia_esempio_1(){
+				const testo = document.getElementById('esempio_1').innerText;
+				navigator.clipboard.writeText(testo);
+		}
+		function copia_esempio_2(){
+				const testo = document.getElementById('esempio_2').innerText;
+				navigator.clipboard.writeText(testo);
+		}
+	</script>
+	    <!-- ******************************************************************************************************************************** -->
+</body>
+
+</html>
