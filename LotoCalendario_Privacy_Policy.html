@@ -1,0 +1,435 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>senza_nome</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.38" />
+</head>
+
+<body
+		style="background-image: url('/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/1791381243797.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;"
+>
+ 
+	<!-- ****************************************************[Table 0, 4 bottoni in alto, 4 colonne ]*********************************************** -->
+    <table style="
+    border: 1px solid rgba(41, 128, 185, 0.3);
+    width: 100%;"
+    >
+        
+        <!-- RIGA 1: I bottoni principali affiancati -->
+        <tr>
+            
+            <td align="center">
+				
+                <a href="#Progetti">
+					<button id="btn_home_mik_tattico" 
+						style="
+							background-color: rgba(41, 128, 185, 0.65);
+							color: white; 
+							border: none;
+							padding: 10px 15px;
+							border-radius: 6px;
+							cursor: pointer;
+							font-weight: bold;"
+					onclick="returnHomeMikTattico()"
+                 >
+				Home MikTattico
+            </button>  
+					</a>
+            </td>
+            <td align="center">
+                <a href="#privacy">
+					<button id="btn_progetti_in_corso" 
+						style="
+						background-color: rgba(41, 128, 185, 0.65);
+						color: white; 
+						border: none;
+						padding: 10px 15px;
+						border-radius: 6px;
+						cursor: pointer;
+						font-weight: bold;"
+                 onclick="gestioneProgetti()"
+                 >
+				Progetti
+            </button>
+					</a>
+            </td>
+            <td align="center">
+                <a href="#Download">
+					<button id="btn_download_loto_calendario" 
+						style="
+						background-color: rgba(41, 128, 185, 0.65);
+						color: white; 
+						border: none;
+						padding: 5px 10px;
+						border-radius: 6px;
+						cursor: pointer;
+						font-weight: bold;"
+						onclick="gestioneDownload()"
+                 >
+				<img src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/icons8-scaricamento-64.png" 
+					alt="Download LotoCalendario" 
+					style="
+						width: 28px;
+						height: 28px; 
+						image-rendering: pixelated;
+						"
+				>
+            </button>
+            </a>
+            </td>
+            
+             <td 
+             align="right"
+             >
+                <a href="#Contattami">
+					<button id="btn_contattami" 
+						style="
+						background-color: rgba(41, 128, 185, 0.65);
+						color: white; 
+						border: none;
+						padding: 10px 15px;
+						border-radius: 6px;
+						cursor: pointer;
+						font-weight: bold;
+						font-size: 18px;
+						"                 
+						onclick="gestioneContattami()"
+						>
+				@
+            </button></a>
+            </td>
+            <td align="left">
+                <a href="#Donazioni">
+					<button id="btn_donazione" 
+						style="
+						background-color: rgba(41, 128, 185, 0.65);
+						color: white; 
+						border: none;
+						padding: 5px 10px;
+						border-radius: 6px;
+						cursor: pointer;
+						font-weight: bold;
+						font-size: 14px;
+						"                 
+						onclick="gestioneDonazioni()"
+						>
+						<img 
+						src="/home/secre/Scrivania/LANCIO APLICAZIONI/LOTO CALENDARIO INDEX HTML/img_guida_loto/icons8-regalo-48.png" 
+						alt="Regalo" 
+						style="
+						width: 28px;
+						height: 28px; 
+						image-rendering: pixelated;
+						"
+					> 					
+            </button>
+            </a>
+            </td>
+        </tr>
+
+    </table>
+    <!-- ****************************************************[Table 1, lista informazioni guide varie in due colonne ]******************************************* -->
+    <table style="
+    border: 1px solid rgba(41, 128, 185, 0.3);
+    width: 75%;"
+    >
+    <tr>
+			<!-- ************************************************[ RIGA iniziale ]****************************************** -->
+			<!-- ************************************************[ COLONNA 0 ]****************************************** -->
+            <td 
+            
+            style="
+            width: 35%; 
+            height: 100%;
+            vertical-align: middle;
+            text-align:right
+            padding: 20px 0;
+            border: 1px solid rgba(41, 128, 185, 0.3);
+            "
+            >
+				
+				<button id="btn_guide_varie_inizio" 
+						style="
+						background-color: rgba(120, 190, 230, 0.5);
+						color: #2f3640; 
+						display: block;
+						margin-left: auto;
+						margin-right: 0;
+						border: none;
+						width: 38px;
+						
+						height:800px;
+						border-top-left-radius: 12px;
+						border-top-right-radius: 3px;
+						border-bottom-left-radius: 12px;
+						border-bottom-right-radius: 3px;
+						cursor: pointer;
+						
+						
+						text-align: center;
+						line-height: 1.25;
+						letter-spacing:2px;
+						padding:0;
+						font-weight: bold;
+						font-size: 18px;
+						text-decoration: none;
+						
+						"
+						onclick="apriDialogGuida()">
+			
+				<br>G<br>u<br>i<br>d<br>e<br>.<br>.<br>.
+            </button>
+				
+				
+				
+			</td>	
+			<!-- ************************************************[ COLONNA 1 ]****************************************** -->
+			<td 
+			align="margin-left"
+			style="witdth: 35%; 
+			vertical-align: top;
+			border: 1px solid rgba(41, 128, 185, 0.3);
+			"
+			>
+				
+				<div id="paragrafo-guida-inizio" class="guida-step">
+					<div class="guida-step"				
+						<div class="testo-spiegazione">
+							<h2 style="color: #4CAF50; margin-top: 0;">Loto Calendario - Release 3 (Aptoide Edition)</h2>
+							
+								<hr>	
+								<h3>📌 Descrizione Generale</h3>
+								<hr>	
+									<p>Loto Calendario è un'applicazione avanzata personalizzabile, progettata </p>
+									<p>per gestire appuntamenti, impegni, attività lavorative, scolastiche ecc... .</p>
+									<p>L'applicazione e' progettata per garantire efficienza e rapidità nell'uso</p>
+									<p>pratico dell'utente e offre un'interfaccia utente nativa, ottimizzata per </p>
+									<p>schermi di varie dimensioni (smartphone e tablet).</p>
+								<hr>	
+								<h3>🔒 Informativa sulla Privacy e Gestione dei Dati (loto-calendario-privacy)</h3>
+									<hr>
+									<p><b>Ultimo aggiornamento: 28 Ottobre 2026</b></p>
+
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;La presente informativa descrive le modalità di gestione dell'applicazione </p>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;LotoCalendario in merito alla privacy e al trattamento dei dati degli utenti:</p>
+									<p><b>1- 	Raccolta dei Dati Personali:</b></p> 
+										
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;L'applicazione NON raccoglie, NON memorizza, </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;NON registra e NON trasmette alcun dato personale dell'utente verso server </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;esterni, cloud di terze parti o soggetti terzi.</p>
+									<p><b>2- Gestione dei Dati Locali (Memoria Interna ed Esterna): </b></p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;L'applicazione memorizza le informazioni riguardanti gli incarichi, gli </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;appuntamenti o altre note inserite dall'utente esclusivamente in locale. </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Tali dati risiedono nella directory interna di installazione o, per espresso </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;e volontario volere dell'utente, su unità di memoria esterne </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;(come Flash Drive USB o schede SD) gestite tramite il File Manager integrato</p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;per operazioni di backup, esportazione o importazione.</p>
+									<p><b>3-  Sicurezza: Poiché gli incarichi creati dall'utente sono salvati internamente</b> </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;nella directory di installazione della applicazione stessa in una directory </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;di default, in locale, il livello di sicurezza dei dati inseriti è elevato </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;ed è protetto direttamente dalle politiche di isolamento del sistema operativo </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Android.	</p>
+								<hr>
+								<h3>🛡️ Dettaglio Permessi e Autorizzazioni (AndroidManifest.xml)</h3>
+								<hr>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;Per soddisfare i requisiti dei comitati di revisione e garantire la massima </p>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;trasparenza, si specificano di seguito i motivi per cui l'applicazione richiede </p>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;le seguenti autorizzazioni di sistema:</p>
+								
+									<p><b>1.  Gestione della Memoria e Storage </b></p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;(MANAGE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE) </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Scopo: L'applicazione include un modulo File Manager proprietario </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;(Salva con nome / Apri file con nome).</p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;**Utilizzo: ** 1 Consentire all'utente di salvare in autonomia appuntamenti </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;creati o copie di appuntamenti esistenti all'interno della applicazione, in </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;directory esterne o memorie rimovibili. ** 2 Consentire all'utente di leggere </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;file di testo esterni(contenenti appuntamenti o note) direttamente tramite </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;il File Manager integrato nell'applicazione.</p>
+									<p><b>2.  Dispositivi di Archiviazione Esterni (USB_PERMISSION) Scopo: </b></p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Interfacciamento con chiavette USB e unità Flash collegate tramite supporto </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;USB TYPE-C.</p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Utilizzo: </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Permettere il salvataggio diretto o la lettura di file di testo da dispositivi </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;USB fisici esterni.</p>
+									<p><b>3. Connettività e Browser (INTERNET, Queries ACTION_VIEW / BROWSABLE) Scopo: </b></p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Fruizione della documentazione e supporto utente online (Guida Online).</p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Utilizzo: L'autorizzazione INTERNET e la dichiarazione delle <queries> </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;consentono di lanciare in modo sicuro il browser predefinito di sistema via</p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Intent quando l'utente seleziona l'opzione "Guida via Internet" all'interno del </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;dialog delle guide. L'app non usa la rete per inviare dati o telemetria.</p>
+									<hr>	
+								<h3>⌛  Changelog e storico Aggiornamenti </h3>
+									<p><b>1-  Release precedente: </b></p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;rimozione della richiesta di permissione: 
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;uses-permission android:name="com.android.vending.BILLING". </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Dimenticata e non utilizzata in Loto Calendario Version 1.1 precedente e del </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;tutto inutile anche in Loto Calendario Version 1.2.</p>
+									<p><b>2-  Miglioramento della comunicazione con l'utente</b> con l'inserimento di un nuovo </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Dialog interattivo per facilitare l'accesso alla guida online sul sito </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;internet e alla guida ristretta e veloce interna a Loto calendario.</p>
+									<p><b>3-  Rimozione Librerie Orfane: </b>Eseguita una bonifica approfondita del codice </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;sorgente con l'eliminazione delle chiamate a librerie orfane e la rimozione </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;di riferimenti obsoleti all'interno delle classi, alleggerendo l' architettura </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;complessiva.</p>
+									<p><b>4-  Pulizia dei Log: </b>Rimozione dei Log di debug superflui per garantire performance </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;piu veloci durante l'uso dell'applicazione.</p>
+									<p><b>5-  Ottimizzazione visiva del File Manager Integrato: </b>Sistemata l'interfaccia e </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;la disposizione dei comandi ( come i pulsanti copia/incolla che di fatto non </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;sono funzionanti ) evitando la visualizzazione di pulsanti in fase di sviluppo </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;e risolvendo un problema di allineamento per cui alcuni comandi venivano tagliati </p>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;fuori dallo schermo sui dispositivi con risoluzioni particolari.</p>
+									<hr>	
+								<p>Documentazione e specifiche tecniche aggiornate in conformità con il rilascio della </p>
+								<p><b>versione 3.0</b> del pacchetto software Loto Calendario.</p>
+
+						</div>										
+					</div>
+				</div>
+				
+			</td>	
+			
+		</tr>
+		
+	
+		<tr>
+	    </table>
+    
+    
+    
+    
+    
+      <hr>		
+			
+			
+			<!-- **************************************************[ PIE DI PAGGINA ]******************************************************* -->
+
+    <h2 id="contatti">Supporto & Bug</h2>
+    <p>
+		Se riscontri un bug, inviami un'email a:
+		<a 
+		href="mailto:miktattico.java@gmail.com" 
+		style="
+		color: #2e7d32; 
+		font-weidht:bold;
+		text-decoration: underline;">
+		miktattico.java@gmail.com
+		</a>
+		
+    </p>
+	
+					
+		<!-- ******************************************************[ FUNZIONI SCRIPT DELLA GUIDA LOTO CALENDARIO]********************************************* -->
+		    <script>
+		function apriDialog_progetti() {
+			document.getElementById('dialog-progetti').style.display = 'flex';
+		}
+
+		function chiudiDialogProgetti() {
+			document.getElementById('dialog-progetti').style.display = 'none';
+		}
+		function gestione_progetti_perte_1(){
+			document.getElementById('progetti_in_corso_0').scrollIntoView({ behavior: 'smooth'});
+		}
+	
+		function gestione_progetti_perte_2(){
+			document.getElementById('progetti_in_corso_1').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_3(){
+			document.getElementById('progetti_in_corso_2').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_4(){
+			document.getElementById('progetti_in_corso_3').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_5(){
+			document.getElementById('progetti_in_corso_4').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_6(){
+			document.getElementById('progetti_in_corso_5').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_7(){
+			document.getElementById('progetti_in_corso_6').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_8(){
+			document.getElementById('progetti_in_corso_7').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_9(){
+			document.getElementById('progetti_in_corso_8').scrollIntoView({ behavior: 'smooth'});
+		}
+		function gestione_progetti_perte_10(){
+			document.getElementById('progetti_in_corso_9').scrollIntoView({ behavior: 'smooth'});
+		}
+		
+		 <!-- *********************************************************************************************************************************************** -->
+		
+		function returnHomeMikTattico(){
+			window.location.href = "HomeMikTattico.html";
+		}
+		function gestioneProgetti(){
+			window.location.href = "ProgettiMikTattico.html";
+		}
+		function gestioneLotoCalendarioPrivacy(){
+			apriPrivacy();
+		}
+		function apriPrivacy(){
+			//const modal = document.getElementById('privacyModal');
+			//modal.showModal();
+		}
+		function chiudiPrivacy(){
+			//const modal = document.getElementById('privacyModal');
+			//modal.close();
+		}
+		function gestioneDownload(){
+			var conferma = confirm("Sei sicuro di voler scaricare Loto Calendario?");
+			if(conferma){
+				window.open('https://github.com/mikjavano/home-miktattico/raw/refs/heads/main/app-release.apk', '_blank');
+			}
+		}
+		function gestioneContattami(){
+			window.location.href = "mailto:miktattico.java@gmail.com?subject=Support%20LotoCalendario";
+		}
+		function gestioneDonazioni(){
+			window.open("https://www.paypal.me/LotoApp1001","_blank");
+		}
+		function copia_esempio_1(){
+				const testo = document.getElementById('esempio_1').innerText;
+				navigator.clipboard.writeText(testo);
+		}
+		function copia_esempio_2(){
+				const testo = document.getElementById('esempio_2').innerText;
+				navigator.clipboard.writeText(testo);
+		}
+	</script>
+	    <!-- ******************************************************************************************************************************** -->
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
