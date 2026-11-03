@@ -72,6 +72,7 @@ background-attachment: fixed;"
 						border-radius: 6px;
 						cursor: pointer;
 						font-weight: bold;"
+						visibility: hidden;
 						onclick="gestioneDownload()"
                  >
 				<img src="img_guida_loto/icons8-scaricamento-64.png" 
@@ -242,10 +243,10 @@ background-attachment: fixed;"
 							>
 					</div>
 					<p style="margin-top: 10px;">
-							<a href="javascript:void(0);" onclick="gestioneDownload();" style="font-weight: bold; text-decoration: underline;">
-								📥 Scarica LotoCalendario (APK Diretto)
+							<!-- <a href="javascript:void(0);" onclick="gestioneDownload();" style="font-weight: bold; text-decoration: underline;">-->
+								<!-- 📥 Scarica LotoCalendario (APK Diretto)-->
 								
-							</a>
+							<!-- </a>-->
 						</p>
 				</div>
 				</div>
@@ -2519,7 +2520,7 @@ background-attachment: fixed;"
 		function gestioneDownload(){
 			var conferma = confirm("Sei sicuro di voler scaricare Loto Calendario?");
 			if(conferma){
-				window.open('https://github.com/mikjavano/home-miktattico/raw/refs/heads/main/app-release.apk', '_blank');
+				//window.open('https://github.com/mikjavano/home-miktattico/raw/refs/heads/main/app-release.apk', '_blank');
 			}
 		}
 		function gestioneContattami(){
